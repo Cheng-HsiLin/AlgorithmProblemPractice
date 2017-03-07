@@ -1,5 +1,5 @@
 //
-//  2AddTwoNumbers.cpp
+//  2_AddTwoNumbers.cpp
 //  AlgorithmPractice
 //
 //  Created by Cheng-Hsi Lin on 3/07/17.
