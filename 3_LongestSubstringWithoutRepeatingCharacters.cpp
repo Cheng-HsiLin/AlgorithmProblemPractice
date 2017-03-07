@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 //// Two Pointers Method with vector record
