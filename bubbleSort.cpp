@@ -8,7 +8,7 @@
 
 #include <iostream>
 #include <vector>
-#include <algorithms>
+#include <algorithm>
 
 using namespace std;
 
