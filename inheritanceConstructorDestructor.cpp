@@ -6,6 +6,8 @@
 //  Copyright © 2017 Cheng-Hsi Lin. All rights reserved.
 //
 
+// This is a true question I met in a interview.
+
 // What is the output of the following program?
 // Answer:
 // create B
