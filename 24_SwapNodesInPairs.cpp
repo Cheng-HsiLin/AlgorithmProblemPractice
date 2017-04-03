@@ -16,6 +16,7 @@ struct ListNode {
     ListNode(int x) : val(x), next(nullptr) {}
 };
 
+// Iterative Method
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) { // time: O(n); space: O(1)
@@ -37,6 +38,20 @@ public:
         return newHead;
     }
 };
+
+// // Recursive Method
+// class Solution {
+// public:
+//     ListNode* swapPairs(ListNode* head) { // time: O(n); space: O(n)
+//         if (head == nullptr || head->next == nullptr) {
+//             return head;
+//         }
+//         ListNode* n = head->next;
+//         head->next = swapPairs(n->next);
+//         n->next = head;
+//         return n;
+//     }
+// };
 
 // Test
 int main () {
